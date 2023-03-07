@@ -5,9 +5,11 @@
   "type": "module",
   "scripts": {
     "build": "tsc && vite build",
+    "build-storybook": "build-storybook",
     "dev": "vite",
     "postinstall": "husky install",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "storybook": "start-storybook -p 6006"
   },
   "lint-staged": {
     "*.{css,md,json}": [
@@ -31,13 +33,24 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "@babel/core": "^7.21.0",
     "@commitlint/cli": "^17.4.4",
     "@commitlint/config-conventional": "^17.4.4",
+    "@mdx-js/react": "^1.6.22",
+    "@storybook/addon-actions": "^6.5.16",
+    "@storybook/addon-docs": "^6.5.16",
+    "@storybook/addon-essentials": "^6.5.16",
+    "@storybook/addon-interactions": "^6.5.16",
+    "@storybook/addon-links": "^6.5.16",
+    "@storybook/builder-vite": "^0.4.2",
+    "@storybook/react": "^6.5.16",
+    "@storybook/testing-library": "^0.0.13",
     "@types/react": "^18.0.27",
     "@types/react-dom": "^18.0.10",
     "@typescript-eslint/eslint-plugin": "^5.54.0",
     "@typescript-eslint/parser": "^5.54.0",
     "@vitejs/plugin-react-swc": "^3.0.0",
+    "babel-loader": "^8.3.0",
     "commitizen": "^4.3.0",
     "cz-conventional-changelog": "^3.3.0",
     "eslint": "^8.35.0",
@@ -52,6 +65,7 @@
     "eslint-plugin-react": "^7.32.2",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-simple-import-sort": "^7.0.0",
+    "eslint-plugin-storybook": "^0.6.11",
     "eslint-plugin-testing-library": "^5.5.1",
     "husky": "^8.0.0",
     "lint-staged": "^13.1.2",
