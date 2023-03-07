@@ -528,6 +528,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@remix-run/router@npm:1.3.3":
+  version: 1.3.3
+  resolution: "@remix-run/router@npm:1.3.3"
+  checksum: 9280f1c3e44c0fb84a74b401b5a47022dace06d5da0f26a7a68c7c0e57ad5ef95d30f3c2d333df2db3b63f84de81f7f8caa7e53189a7709d6c3eb466d126ed76
+  languageName: node
+  linkType: hard
+
 "@swc/core-darwin-arm64@npm:1.3.37":
   version: 1.3.37
   resolution: "@swc/core-darwin-arm64@npm:1.3.37"
@@ -1521,6 +1528,45 @@ __metadata:
   checksum: d06418b7335897209e77bdd430d04f882189582e67bd1f75a04565f3f07f5b3f119a9d670c943b6697d0afb100f03b866b3b8a1f91d4d02d72c4ecf2bb64b5dd
   languageName: node
   linkType: hard
+
+"code-log@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "code-log@workspace:."
+  dependencies:
+    "@commitlint/cli": ^17.4.4
+    "@commitlint/config-conventional": ^17.4.4
+    "@types/react": ^18.0.27
+    "@types/react-dom": ^18.0.10
+    "@typescript-eslint/eslint-plugin": ^5.54.0
+    "@typescript-eslint/parser": ^5.54.0
+    "@vitejs/plugin-react-swc": ^3.0.0
+    commitizen: ^4.3.0
+    cz-conventional-changelog: ^3.3.0
+    eslint: ^8.35.0
+    eslint-config-prettier: ^8.5.0
+    eslint-import-resolver-typescript: ^2.7.1
+    eslint-plugin-cypress: ^2.12.1
+    eslint-plugin-import: ^2.26.0
+    eslint-plugin-jest: ^26.5.3
+    eslint-plugin-jest-dom: ^4.0.2
+    eslint-plugin-jsx-a11y: ^6.7.1
+    eslint-plugin-prettier: ^4.2.1
+    eslint-plugin-react: ^7.32.2
+    eslint-plugin-react-hooks: ^4.6.0
+    eslint-plugin-simple-import-sort: ^7.0.0
+    eslint-plugin-testing-library: ^5.5.1
+    husky: ^8.0.0
+    lint-staged: ^13.1.2
+    prettier: ^2.8.4
+    react: ^18.2.0
+    react-dom: ^18.2.0
+    react-router-dom: ^6.8.2
+    sort-package-json: ^2.4.1
+    tailwindcss: ^3.2.7
+    typescript: ^4.9.3
+    vite: ^4.1.0
+  languageName: unknown
+  linkType: soft
 
 "color-convert@npm:^1.9.0":
   version: 1.9.3
@@ -4971,43 +5017,29 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-template@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "react-template@workspace:."
+"react-router-dom@npm:^6.8.2":
+  version: 6.8.2
+  resolution: "react-router-dom@npm:6.8.2"
   dependencies:
-    "@commitlint/cli": ^17.4.4
-    "@commitlint/config-conventional": ^17.4.4
-    "@types/react": ^18.0.27
-    "@types/react-dom": ^18.0.10
-    "@typescript-eslint/eslint-plugin": ^5.54.0
-    "@typescript-eslint/parser": ^5.54.0
-    "@vitejs/plugin-react-swc": ^3.0.0
-    commitizen: ^4.3.0
-    cz-conventional-changelog: ^3.3.0
-    eslint: ^8.35.0
-    eslint-config-prettier: ^8.5.0
-    eslint-import-resolver-typescript: ^2.7.1
-    eslint-plugin-cypress: ^2.12.1
-    eslint-plugin-import: ^2.26.0
-    eslint-plugin-jest: ^26.5.3
-    eslint-plugin-jest-dom: ^4.0.2
-    eslint-plugin-jsx-a11y: ^6.7.1
-    eslint-plugin-prettier: ^4.2.1
-    eslint-plugin-react: ^7.32.2
-    eslint-plugin-react-hooks: ^4.6.0
-    eslint-plugin-simple-import-sort: ^7.0.0
-    eslint-plugin-testing-library: ^5.5.1
-    husky: ^8.0.0
-    lint-staged: ^13.1.2
-    prettier: ^2.8.4
-    react: ^18.2.0
-    react-dom: ^18.2.0
-    sort-package-json: ^2.4.1
-    tailwindcss: ^3.2.7
-    typescript: ^4.9.3
-    vite: ^4.1.0
-  languageName: unknown
-  linkType: soft
+    "@remix-run/router": 1.3.3
+    react-router: 6.8.2
+  peerDependencies:
+    react: ">=16.8"
+    react-dom: ">=16.8"
+  checksum: eddc8b88e26c66408df894bdcf95efd6731e21b7cbfd7417cd456f0043916279e0559b06c6cdc19c2a55c6aefc4cc745fa4065d3505e519a95adbef0cc89e77f
+  languageName: node
+  linkType: hard
+
+"react-router@npm:6.8.2":
+  version: 6.8.2
+  resolution: "react-router@npm:6.8.2"
+  dependencies:
+    "@remix-run/router": 1.3.3
+  peerDependencies:
+    react: ">=16.8"
+  checksum: 9e98d03e1f18bfd5a35144a0c675adaf7c46a9ad436efdea2b52ef3a6e501ac6174a67ea90004e1339cd45019d6b1eb370627518320f7af9323ae74e0c6756ad
+  languageName: node
+  linkType: hard
 
 "react@npm:^18.2.0":
   version: 18.2.0
