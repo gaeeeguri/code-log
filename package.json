@@ -9,7 +9,7 @@
     "dev": "vite",
     "postinstall": "husky install",
     "preview": "vite preview",
-    "storybook": "start-storybook -p 6006"
+    "storybook": "start-storybook -p 6006 "
   },
   "lint-staged": {
     "*.{css,md,json}": [
